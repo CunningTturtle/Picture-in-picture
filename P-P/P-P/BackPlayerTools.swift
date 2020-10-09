@@ -25,6 +25,12 @@ extension BackPlayerToolsDelegate {
     func didEnd(){}
 }
 
+
+
+/// 画中画工具
+/// 1 必须为全局变量
+/// 2 建议提前给layer 同时给并且调用的话 需要加点延迟
+
 class BackPlayerTools: NSObject, AVPictureInPictureControllerDelegate {
 
     
